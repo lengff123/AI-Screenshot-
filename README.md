@@ -1,9 +1,9 @@
 # AI Screenshot Tool 🖼️🤖
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/ai-screenshot-tool?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/ai-screenshot-tool?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/ai-screenshot-tool)
-![GitHub license](https://img.shields.io/github/license/yourusername/ai-screenshot-tool)
+![GitHub stars](https://img.shields.io/github/stars/lengff123/AIScreenshot?style=social)
+![GitHub forks](https://img.shields.io/github/forks/lengff123/AIScreenshot?style=social)
+![GitHub issues](https://img.shields.io/github/issues/lengff123/AIScreenshot)
+![GitHub license](https://img.shields.io/github/license/lengff123/AIScreenshot)
 
 AI Screenshot Tool is an innovative application that combines the power of AI with the convenience of screenshot capture. Designed for researchers, students, and professionals, this tool streamlines the process of capturing and analyzing visual information.
 
@@ -60,12 +60,27 @@ Contributions, issues, and feature requests are welcome! See [CONTRIBUTING.md](C
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 🙏 赞助
 
-- [DashScope](https://www.aliyun.com/product/dashscope) for providing the AI backend.
-- All our contributors and users for their valuable feedback and support.
+如果你觉得这个工具对你有帮助，可以考虑赞助我们的项目。你的支持将帮助我们持续改进和维护这个工具。
 
-## 📬 Contact
+### 支付宝
+
+<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/alipay.jpg" alt="支付宝二维码" width="200"/>
+
+### 微信支付
+
+<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/wechat.jpg" alt="微信支付二维码" width="200"/>
+
+### 比特币
+
+<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/btc.png" alt="比特币二维码" width="200"/>
+
+比特币地址：`1NHiMVZZnXhXXXXXXXXXXXXXXXXXXXXXXX`
+
+感谢你的支持！🎉
+
+## 📬 联系
 
 Have questions? Feel free to reach out:
 
