@@ -85,7 +85,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Have questions? Feel free to reach out:
 
 - Create an [issue](https://github.com/yourusername/ai-screenshot-tool/issues)
-- Email us at: your.email@example.com
+- Email us at: leng_ff@163.com
 
 ---
 
