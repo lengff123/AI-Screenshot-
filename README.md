@@ -51,6 +51,26 @@ cd ai-screenshot-tool
 pip install -r requirements.txt
 python main.py
 
+## 🚀 Coming Soon
+
+We're excited to announce several new features that are currently in development:
+
+1. **Local LLM Integration with Ollama[https://ollama.com/]**: 
+   - Connect to your local Large Language Models using Ollama
+   - Run models like Llama 3.1, Phi 3, Mistral, and Gemma 2 locally
+   - Enhance privacy and reduce dependency on cloud-based AI services
+   - Customize and create your own models
+
+2. **Advanced Text Processing**:
+   - Improved OCR capabilities for more accurate text extraction from images
+   - Enhanced text analysis and summarization features
+
+3. **Intelligent Clipboard Processing**:
+   - Automatically detect and process clipboard content
+   - Smart suggestions and actions based on the type of copied content
+
+Stay tuned for these exciting updates that will make AI Screenshot Tool even more powerful and versatile!
+
 ## 📘 Documentation
 
 For more detailed information about using AI Screenshot Tool, please refer to our [Wiki](https://github.com/yourusername/ai-screenshot-tool/wiki).
