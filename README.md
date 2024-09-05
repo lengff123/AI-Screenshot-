@@ -1,5 +1,8 @@
 # AI Screenshot Tool 🖼️🤖
 
+
+<img src="icon.ico" alt="AI Screenshot Tool Logo" width="100"/>
+
 ![GitHub stars](https://img.shields.io/github/stars/lengff123/AIScreenshot?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/lengff123/AIScreenshot?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/lengff123/AIScreenshot)
@@ -58,34 +61,34 @@ Contributions, issues, and feature requests are welcome! See [CONTRIBUTING.md](C
 
 ## 📄 License
 
-This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 赞助
+## 🙏 Sponsorship
 
-如果你觉得这个工具对你有帮助，可以考虑赞助我们的项目。你的支持将帮助我们持续改进和维护这个工具。
+If you find this tool helpful, please consider sponsoring our project. Your support will help us continue to improve and maintain this tool.
 
-### 支付宝
+### Alipay
 
-<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/alipay.jpg" alt="支付宝二维码" width="200"/>
+<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/alipay.jpg" alt="Alipay QR Code" width="200"/>
 
-### 微信支付
+### WeChat Pay
 
-<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/wechat.jpg" alt="微信支付二维码" width="200"/>
+<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/wechat.jpg" alt="WeChat Pay QR Code" width="200"/>
 
-### 比特币
+### Bitcoin
 
-<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/btc.png" alt="比特币二维码" width="200"/>
+<img src="https://raw.githubusercontent.com/lengff123/AIScreenshot/main/images/btc.png" alt="Bitcoin QR Code" width="200"/>
 
-比特币地址：`1NHiMVZZnXhXXXXXXXXXXXXXXXXXXXXXXX`
+Bitcoin address: `1NHiMVZZnXhXXXXXXXXXXXXXXXXXXXXXXX`
 
-感谢你的支持！🎉
+Thank you for your support! 🎉
 
 ## 📬 联系
 
 Have questions? Feel free to reach out:
 
 - Create an [issue](https://github.com/yourusername/ai-screenshot-tool/issues)
-- Email us at: leng_ff@163.com
+- Email us at: your.email@example.com
 
 ---
 
