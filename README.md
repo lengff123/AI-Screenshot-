@@ -10,6 +10,16 @@
 
 AI Screenshot Tool is an innovative application that combines the power of AI with the convenience of screenshot capture. Designed for researchers, students, and professionals, this tool streamlines the process of capturing and analyzing visual information.
 
+## 📺 Video Demo
+
+Check out our video demonstration on Bilibili:
+
+[![AI Screenshot Tool Demo](https://i0.hdslb.com/bfs/archive/7c53a3d4a4f8f5b6a6f0f8f5b6a6f0f8f5b6a6f0.jpg@640w_400h_100Q_1c.webp)](https://www.bilibili.com/video/your_video_id)
+
+👆 Click the image above to watch the demo video and leave your comments!
+
+We'd love to hear your thoughts and suggestions. Feel free to leave comments on the video or open an issue in this repository.
+
 ## ✨ Features
 
 - **One-Click Capture**: Take screenshots with a simple keyboard shortcut (Ctrl+G).
