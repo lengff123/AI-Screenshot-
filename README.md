@@ -24,8 +24,10 @@ We'd love to hear your thoughts and suggestions. Feel free to leave comments on 
 
 - **One-Click Capture**: Take screenshots with a simple keyboard shortcut (Ctrl+G).
 - **AI-Powered Analysis**: Automatically extract text and formulas from your screenshots.
-- **LaTeX Conversion**: Convert mathematical equations in images to LaTeX format.
+- **Multi-Format Conversion**: Support for converting recognized content into LaTeX, Markdown, and other formats.
 - **Clipboard Integration**: Results are instantly copied to your clipboard for easy pasting.
+- **Smart Format Detection**: Automatically select output format based on the active application.
+- **Custom Rules**: Allow users to define custom rules for program-to-format mapping.
 - **Customizable Settings**: Tailor the tool to your specific needs.
 - **System Tray Integration**: Easy access and minimal interference with your workflow.
 
