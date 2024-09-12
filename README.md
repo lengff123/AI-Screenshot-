@@ -3,6 +3,8 @@
 
 <img src="icon.ico" alt="AI Screenshot Tool Logo" width="100"/>
 
+[English](README.md) [中文版](README_zh.md) | [日本語](README_ja.md)
+
 ![GitHub stars](https://img.shields.io/github/stars/lengff123/AIScreenshot?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/lengff123/AIScreenshot?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/lengff123/AIScreenshot)
@@ -30,6 +32,10 @@ We'd love to hear your thoughts and suggestions. Feel free to leave comments on 
 - **Custom Rules**: Allow users to define custom rules for program-to-format mapping.
 - **Customizable Settings**: Tailor the tool to your specific needs.
 - **System Tray Integration**: Easy access and minimal interference with your workflow.
+- **Image Translation**: Translate text in images between Chinese and English.
+- **Image Understanding**: AI-powered description and analysis of image content.
+- **Quick Action Menu**: Hold Shift after taking a screenshot to access a radial menu for quick actions.
+- **Multiple AI Services**: Support for OpenAI, DashScope, and Ollama AI services.
 
 ## 🚀 Getting Started
 
@@ -49,7 +55,9 @@ We'd love to hear your thoughts and suggestions. Feel free to leave comments on 
 1. Press `Ctrl+G` to enter screenshot mode.
 2. Click and drag to select the area you want to capture.
 3. Release the mouse button to capture the screenshot.
-4. The AI will analyze the image and copy the results to your clipboard.
+4. Hold Shift to access the quick action menu, or release to use the default action.
+5. The AI will analyze the image and copy the results to your clipboard.
+6. Press `Alt+X` to trigger the conversion if using the default action.
 
 ## 🛠️ Development
 
@@ -67,25 +75,16 @@ python main.py
 
 We're excited to announce several new features that are currently in development:
 
-1. **Local LLM Integration with Ollama[https://ollama.com/]**: 
-   - Connect to your local Large Language Models using Ollama
-   - Run models like Llama 3.1, Phi 3, Mistral, and Gemma 2 locally
-   - Enhance privacy and reduce dependency on cloud-based AI services
-   - Customize and create your own models
-
-2. **Advanced Text Processing**:
-   - Improved OCR capabilities for more accurate text extraction from images
-   - Enhanced text analysis and summarization features
-
-3. **Intelligent Clipboard Processing**:
-   - Automatically detect and process clipboard content
-   - Smart suggestions and actions based on the type of copied content
+1. **Enhanced OCR Capabilities**: Improved text extraction from complex images.
+2. **More AI Services Integration**: Support for additional AI providers and models.
+3. **Advanced Image Processing**: Additional tools for image manipulation before AI analysis.
+4. **Cross-Platform Support**: Developing versions for macOS and Linux.
 
 Stay tuned for these exciting updates that will make AI Screenshot Tool even more powerful and versatile!
 
 ## 📘 Documentation
 
-For more detailed information about using AI Screenshot Tool, please refer to our [Wiki](https://github.com/yourusername/ai-screenshot-tool/wiki).
+For more detailed information about using AI Screenshot Tool, please refer to our [Wiki](https://github.com/lengff123/AIScreenshot/wiki).
 
 ## 🤝 Contributing
 
