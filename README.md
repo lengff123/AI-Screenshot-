@@ -3,7 +3,7 @@
 
 <img src="icon.ico" alt="AI Screenshot Tool Logo" width="100"/>
 
-[English](README.md) | [中文版](README_zh.md) | [日本語](README_ja.md)
+[English](README.md) | [中文版](https://github.com/lengff123/AIScreenshot/blob/main/README_zh.md) | [日本語](README_ja.md)
 
 ![GitHub stars](https://img.shields.io/github/stars/lengff123/AIScreenshot?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/lengff123/AIScreenshot?style=social)
