@@ -1,0 +1,326 @@
+:root {
+    --bg-color: #0a0e17;
+    --text-color: #ffffff;
+    --accent-color: #61dafb;
+    --secondary-bg: #1a1e26;
+    --card-bg: #252a35;
+    --gradient-start: #1a1e26;
+    --gradient-end: #0a0e17;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 确保body至少占据整个视口高度 */
+    margin: 0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    background-image: 
+        linear-gradient(135deg, var(--gradient-start), var(--gradient-end)),
+        linear-gradient(rgba(97, 218, 251, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(97, 218, 251, 0.1) 1px, transparent 1px);
+    background-size: 100% 100%, 20px 20px, 20px 20px;
+    background-position: 0 0, 10px 10px, 10px 10px;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(97, 218, 251, 0.05) 0%, rgba(10, 14, 23, 0) 70%);
+    z-index: -1;
+    animation: pulse 10s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 14, 23, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 1rem 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+.container {
+    flex: 1; /* 让container占据除了header和footer之外的所有空间 */
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 4rem 2rem; /* 调整顶部padding以适应固定的header */
+    gap: 6rem;
+}
+
+main {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hero {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--accent-color);
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s ease-out;
+    text-shadow: 0 0 10px rgba(97, 218, 251, 0.5);
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out 0.2s backwards;
+    max-width: 80%; /* 限制文本宽度，提高可读性 */
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    animation: fadeInUp 1s ease-out 0.4s backwards;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(97, 218, 251, 0.1);
+}
+
+.btn:hover {
+    background-color: #4fa8d5;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(97, 218, 251, 0.2);
+}
+
+.btn.github {
+    background-color: #24292e;
+    color: var(--text-color);
+}
+
+.btn.github:hover {
+    background-color: #2f363d;
+}
+
+.hero-image {
+    display: none; /* 或者完全删除这个元素 */
+    margin-top: 2rem;
+    max-width: 300px;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features, #updates {
+    margin-bottom: 2rem; /* 减少底部margin */
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.feature-item {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(97, 218, 251, 0.1);
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(97, 218, 251, 0.1);
+}
+
+.feature-item i {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.update-card {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(97, 218, 251, 0.1);
+}
+
+.update-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(97, 218, 251, 0.1);
+}
+
+.update-date {
+    color: var(--accent-color);
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: var(--secondary-bg);
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        padding: 100px 2rem 2rem;
+    }
+
+    main, aside {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+.badges {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#download {
+    text-align: center;
+}
+
+#download .btn.large {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
